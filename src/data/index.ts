@@ -10,6 +10,7 @@ import { convexRules } from "./rules/convex";
 import { dataAnalystRules } from "./rules/data-analyst";
 import { deepLearningRules } from "./rules/deep-learning";
 import { djangoRules } from "./rules/django";
+import { djangoRules as djangoRules2 } from "./rules/django2";
 import { dotnetRules } from "./rules/dotnet";
 import { expoReactNativeRules } from "./rules/expo";
 import { fastapiRules } from "./rules/fastapi";
@@ -84,6 +85,7 @@ export const rules: Rule[] = [
   ...dataAnalystRules,
   ...deepLearningRules,
   ...djangoRules,
+  ...djangoRules2,
   ...dotnetRules,
   ...elixirRules,
   ...expoReactNativeRules,
